@@ -1,0 +1,80 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "95334289-2341-4def-90f4-760285ea0a02": {
+        "id": "95334289-2341-4def-90f4-760285ea0a02",
+        "parent": null,
+        "name": "p2p2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b53e0a19-ce3c-43bc-bdb2-b364e873a6d6"
+        ],
+        "isRemovable": false,
+        "filePath": "p2p2"
+      },
+      "b53e0a19-ce3c-43bc-bdb2-b364e873a6d6": {
+        "id": "b53e0a19-ce3c-43bc-bdb2-b364e873a6d6",
+        "parent": "95334289-2341-4def-90f4-760285ea0a02",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "p2p2/lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "95334289-2341-4def-90f4-760285ea0a02",
+    "openFiles": [
+      "b53e0a19-ce3c-43bc-bdb2-b364e873a6d6"
+    ],
+    "currentFileId": "b53e0a19-ce3c-43bc-bdb2-b364e873a6d6",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "p2p2",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "language": "javascript",
+    "lastSave": 1580365794183
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "p2p2",
+      "url": "https://github.com/zgma-test/p2p2"
+    }
+  }
+}
